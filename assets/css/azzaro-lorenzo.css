@@ -15,7 +15,7 @@ body {
 .container {
   width: 1000px;
   margin: auto;
-  background-color: rgba(240, 240, 240, 255);
+  background-image: url(../img/fond.png);
   box-shadow: 0px 4px 6px 2px gray;
 }
 
@@ -318,6 +318,7 @@ main p {
 @media (max-width: 1000px) {
   .container {
     width: 100%;
+    background-size: contain;
   }
   .little-head-1 {
     display: flex;
